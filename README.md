@@ -1,14 +1,15 @@
-# TaxonomyVQA — Data Processing & Benchmark Generation
+# CrossProp — Benchmarking Cross-Property Reasoning in Vision-Language Models
 
-Code for building **TaxonomyVQA**, a visual-question-answering benchmark that probes
-vision-language models on physical object properties (material, shape, function,
-affordance), spatial relations, and compositional / counterfactual reasoning over
-both **real images** (OpenImages) and **simulated scenes**.
+Code for building **CrossProp**, a visual-question-answering benchmark that probes
+vision-language models on **cross-property reasoning** — relating physical object
+properties (material, shape, function, affordance), spatial relations, and
+compositional / counterfactual reasoning — over both **real images** (OpenImages) and
+**simulated scenes**.
 
 This repository contains the **data-processing and benchmark-generation pipeline**.
 The released VQA data lives on Hugging Face:
 
-- 📦 **Benchmark (real + sim, open-ended):** `TaxonomyProject/TaxonomyVQA`
+- 📦 **Benchmark (real + sim, open-ended):** `TaxonomyProject/CrossProp`
 - 📦 **Simulation metadata (taxonomy, objects, scene annotations):** [`TaxonomyProject/SimulationMetadata`](https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata)
 
 The 3D-annotation / detection stages build on
@@ -40,15 +41,16 @@ Simulated scenes          ─┘   (pipeline/3d_annotation,   (pipeline/object_d
 
 See `docs/` for detailed write-ups: `QA_GENERATION_README.md`,
 `SPATIALREASONER_DATAGEN_PIPELINE_ARCHITECTURE.md`, `UNIFIED_PIPELINE_README.md`,
-and `pipeline/qa_gen/*.md`.
+and `pipeline/qa_gen/*.md`. (Internal code and data files keep the original
+`taxonomy` naming for the underlying property taxonomy.)
 
 ---
 
 ## Setup
 
 ```bash
-git clone https://github.com/XingruiWang/TaxonomyVQA
-cd TaxonomyVQA
+git clone https://github.com/XingruiWang/CrossProp
+cd CrossProp
 pip install -r requirements.txt          # core (QA gen, eval, tooling)
 # GPU stages (3D annotation / detection) need extra deps — see docs/INSTALL.md
 ```
@@ -103,4 +105,4 @@ the upstream SpatialReasonerDataGen. See [LICENSE](LICENSE).
 }
 ```
 
-> _Citation for the TaxonomyVQA paper will be added here upon publication._
+> _CrossProp: Benchmarking Cross-Property Reasoning in Vision-Language Models — citation will be added here upon publication._
