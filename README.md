@@ -11,9 +11,9 @@ model must answer in free form (no multiple-choice options in the prompt).
 This repository holds the **data-processing & benchmark-generation pipeline** and the
 **inference / evaluation** code. The benchmark data is on Hugging Face.
 
-| | Paper | VQA dataset | Sim metadata |
-|---|---|---|---|
-| 🔗 | _coming soon_ | [RyanWW/PercepTaxBench](https://huggingface.co/datasets/RyanWW/PercepTaxBench) | [TaxonomyProject/SimulationMetadata](https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata) |
+| | Project page | Paper | VQA dataset | Sim metadata |
+|---|---|---|---|---|
+| 🔗 | [perceptual-taxonomy.github.io](https://perceptual-taxonomy.github.io) | [arXiv:2511.19526](https://arxiv.org/abs/2511.19526) | [RyanWW/PercepTaxBench](https://huggingface.co/datasets/RyanWW/PercepTaxBench) | [TaxonomyProject/SimulationMetadata](https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata) |
 
 ## Subsets
 
@@ -134,10 +134,11 @@ A few inherited/WIP files have pre-existing syntax errors and are reference-only
 [SpatialReasonerDataGen](https://github.com/wufeim/SpatialReasonerDataGen).
 
 ```bibtex
-@misc{perceptax2025,
-  title  = {PercepTax: Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models},
-  author = {Wang, Xingrui and others},
-  year   = {2025}
+@inproceedings{lee2026perceptax,
+  title     = {PercepTax: Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models},
+  author    = {Lee, Jonathan and Wang, Xingrui and Peng, Jiawei and Ye, Luoxin and Zheng, Zehan and Zhang, Tiezheng and Wang, Tao and Ma, Wufei and Chen, Siyi and Chou, Yu-Cheng and Kaushik, Prakhar and Yuille, Alan},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2026}
 }
 
 @article{ma2025spatialreasoner,
