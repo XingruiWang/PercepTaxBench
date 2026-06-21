@@ -1,0 +1,155 @@
+{
+    "comment": "Data-driven object name refinement mappings from analyzing 9,079 OpenImages unified outputs",
+    "generic_to_specific": {
+        "army": [
+            "soldier",
+            "guard",
+            "military personnel"
+        ],
+        "person": [
+            "man",
+            "woman",
+            "child",
+            "boy",
+            "girl",
+            "pedestrian",
+            "worker"
+        ],
+        "plant": [
+            "flower",
+            "tree",
+            "bush",
+            "shrub"
+        ],
+        "food": [
+            "sandwich",
+            "fruit",
+            "pizza",
+            "burger",
+            "cake",
+            "bread"
+        ],
+        "animal": [
+            "dog",
+            "cat",
+            "horse",
+            "bird",
+            "elephant",
+            "cow"
+        ],
+        "furniture": [
+            "chair",
+            "table",
+            "sofa",
+            "bed",
+            "desk"
+        ],
+        "vehicle": [
+            "car",
+            "truck",
+            "van",
+            "bus",
+            "motorcycle"
+        ],
+        "building": [
+            "house",
+            "church",
+            "monument",
+            "store",
+            "office"
+        ],
+        "weapon": [
+            "gun",
+            "rifle",
+            "sword",
+            "knife",
+            "spear"
+        ],
+        "clothing": [
+            "shirt",
+            "pants",
+            "dress",
+            "coat",
+            "shoes",
+            "hat"
+        ]
+    },
+    "refinement_priority": {
+        "comment": "Priority order based on frequency of occurrence in dataset",
+        "person": [
+            "man",
+            "woman",
+            "child",
+            "pedestrian",
+            "boy",
+            "girl",
+            "worker"
+        ],
+        "army": [
+            "soldier"
+        ],
+        "plant": [
+            "flower",
+            "tree"
+        ],
+        "animal": [
+            "dog",
+            "cat",
+            "bird",
+            "horse",
+            "elephant"
+        ],
+        "food": [
+            "sandwich",
+            "fruit",
+            "cake",
+            "bread",
+            "pizza"
+        ],
+        "furniture": [
+            "chair",
+            "table",
+            "sofa"
+        ]
+    },
+    "validated_refinements": {
+        "comment": "These refinements were validated against actual OpenImages data (9,079 files)",
+        "army_to_soldier": {
+            "frequency": 28,
+            "verified": true,
+            "example_image": "80ba9d77fb3de066"
+        },
+        "person_to_man": {
+            "frequency": 3621,
+            "verified": true
+        },
+        "person_to_woman": {
+            "frequency": 619,
+            "verified": true
+        },
+        "person_to_child": {
+            "frequency": 184,
+            "verified": true
+        },
+        "plant_to_flower": {
+            "frequency": 19,
+            "verified": true
+        },
+        "animal_to_dog": {
+            "frequency": 8,
+            "verified": true
+        },
+        "furniture_to_chair": {
+            "frequency": 8,
+            "verified": true
+        },
+        "food_to_sandwich": {
+            "frequency": 5,
+            "verified": true
+        },
+        "food_to_fruit": {
+            "frequency": 6,
+            "verified": true
+        }
+    }
+}

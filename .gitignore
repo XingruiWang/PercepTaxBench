@@ -1,0 +1,45 @@
+# Secrets
+.env
+.envs
+*.pem
+*_keys.py
+*api_key*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data / outputs (published to Hugging Face, not git)
+data/
+Data/
+outputs/
+output*/
+results/
+*.tsv
+*.parquet
+openimages_unified_output/
+taxonomyQABench_*/
+sim_images/
+saved_images/
+plots_*/
+survey_results*/
+
+# Models / weights
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Logs / temp
+logs/
+log/
+*.log
+gradio_temp/
+.gradio/
+.cache/

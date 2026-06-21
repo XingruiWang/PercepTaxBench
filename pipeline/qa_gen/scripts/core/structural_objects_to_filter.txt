@@ -1,0 +1,496 @@
+# Structural/Architectural Objects to Filter Out
+# These are parts of scene structures, not standalone objects
+
+## Walls and Wall Components
+wall
+walls
+wall div
+wall div window
+wall board
+wall bottom strip
+wall bottom strip large
+wall cap
+wall column strip
+wall corner
+wall corner top block
+wall cover
+wall decor
+wall detail
+wall detail frame
+wall door
+wall door hole
+wall electrical wire casing
+wall floor
+wall fountain
+wall frame
+wall fridge
+wall half
+wall half corner
+wall hook
+wall hose
+wall lamp
+wall large column strip
+wall letter
+wall letter line
+wall light
+wall module
+wall module brick
+wall module double door
+wall module kitchen
+wall module short
+wall module slat
+wall mounted flag
+wall panel
+wall paneling
+wall paper
+wall periodic table poster
+wall pillar
+wall pillar metal
+wall pipe
+wall posters large
+wall posters small
+wall shelves
+wall skirting
+wall slate
+wall small
+wall stair
+wall switch
+wall table
+wall toilet
+wall top block
+wall top block half
+wall tops panel
+wall tops panel half
+wall triangle banners
+wall trim
+wall trim plastic
+wall trim wood
+wall window
+wall wire
+wall wire plug
+wallboard
+wallpaper
+wallposter
+background wall
+decorative wall
+exterior corner wall
+exterior wall
+inner corner wall
+inner wall
+interior painted wall
+interior white wall
+new wall
+outdoor wall
+outside wall
+passageway wall
+stairs wall
+wood wall
+wooden wall
+
+## Ceilings and Ceiling Components
+ceiling
+ceiling box
+ceiling construction
+ceiling decor
+ceiling fix
+ceiling item
+ceiling lamp
+ceiling light
+ceiling louver
+ceiling module
+ceiling molding
+ceiling objects
+ceiling ornament
+ceiling pillar
+ceiling planks corner
+ceiling rack
+ceiling radiator
+ceiling top
+ceiling trim
+ceiling vent
+ceiling windows
+ceiling wood
+
+## Floors and Floor Components
+floor
+floor and stairs
+floor board
+floor decor
+floor fixture
+floor glass
+floor info board
+floor lamp
+floor lantern
+floor mat
+floor module
+floor planks corner
+floor pool
+floor separator
+floor tile
+floor trim
+floorlock
+ceramic floor
+level floor
+room floor
+sill floor
+stairs floor
+stone floor
+wooden floor
+polished concrete
+
+## Roofs and Roof Components
+roof
+roof beam
+roof deco
+roof deco left
+roof deco right
+roof eave
+roof exterior
+roof gable
+roof interior
+roof item
+roof leaf
+roof light
+roof onigawara
+roof plane
+roof railing
+roof railing column
+roof stairs
+roof structure
+roof tile
+roof top
+roof trim
+roof trim corner
+roof window
+roofing
+angled roof
+angled roof corner
+angled roof wall
+concrete roof
+mid roof
+
+## Doors and Door Components
+door
+door arch
+door cap
+door cut
+door frame
+door glass
+door handle
+door metal plate
+door molding
+door opening
+door rail
+door shutter
+door sign
+door support
+door wall
+door window
+doorway
+doorway operating room
+doorway wide door
+double door
+employee door
+entrance door
+exterior door
+facade door
+fire door
+gate door
+individual door
+kitchen door
+operating room door
+partition door
+room door
+staircase door
+wide door
+
+## Windows and Window Components
+window
+window a
+window blind
+window blinds
+window cap
+window covering
+window cut
+window divided
+window fence
+window frame
+window frame pole
+window glass
+window molding
+window roof
+window side
+window sill
+window slide
+window var
+window wall
+exterior small window
+exterior window
+facade window
+screen window
+top small window
+wall window
+
+## Structural Supports (Beams, Pillars, Columns)
+beam
+beam sill
+beam small
+beam small angle
+column
+column base
+column head
+pillar
+pillar arch
+pillar support
+corner pillar
+ground pillar
+rack pillar
+roof railing column
+small column
+wall pillar
+wall pillar metal
+rack beam
+roof beam
+wooden beam
+
+## Building Materials, Panels, and Finishes
+arch
+arch trim
+archway
+baseboard
+brick
+brick frame
+brick glass
+broad frame
+building material
+corner
+cornice
+coving
+foundation
+molding
+panel
+skirting
+skirting board
+slim frame
+trim
+wide frame
+wood trim
+
+## Architectural Details and Modules
+balcony
+balcony support bracket
+bar bottom
+bar column
+bar counter
+bar top
+base
+base reception
+blockout module
+bottom molding
+counter corner
+counter wall
+counter wooden corner
+front corner
+inner structure
+outer structure
+passageway bottom
+passageway bottom side
+side balcony
+top piece
+top piece corner
+wall module
+wall module brick
+wall module double door
+wall module kitchen
+wall module short
+wall module slat
+
+## Stairs and Stair Components
+stair
+stair cabinet
+stair cabinet door
+stair handrail
+stair item
+stair rail
+stair railings
+stair step
+staircase door
+stairs
+stairs floor
+stairs railing
+stairs wall
+small stairs
+outdoor staircase
+roof stairs
+upper stair concrete
+
+## Railings and Handrails
+handrail
+handrail glass
+railing
+railing curve
+railing handle end
+railing stairs
+rail bar
+rail walk
+rail walk stairs
+stair handrail
+stair rail
+stair railings
+stairs railing
+
+## Infrastructure (Pipes, Ducts, Vents, Wiring)
+pipe
+pipe a curve
+pipe b curve
+pipe b t point
+pipe connector
+pipe fitting
+pipe fix
+pipe holder
+vent pipe
+wall pipe
+duct
+duct end
+duct end vertical
+hvac
+hvac duct
+oac duct
+vent
+ventilation
+ventilation end
+ventilation grill
+ac vent
+air vent
+ceiling vent
+exhaust fan
+cable
+cable duct
+cable element
+cable rail
+cable rail holder
+cable row
+computer cables
+wall electrical wire casing
+wall wire
+wall wire plug
+wiring
+wiring turn
+wires
+
+## Backgrounds and Backdrops
+background
+background building
+backdrop
+dev backgrounds
+dev backgrounds backdrop simple
+dev backgrounds cylinder
+dev backgrounds dome
+dev backgrounds pano curved closed
+dev backgrounds pano curved open
+dev backgrounds pano simple
+dev backgrounds sphere
+dev backgrounds u shape closed
+dev backgrounds u shape open
+hdri sphere
+panorama
+sky
+sky light
+sky sphere
+skybox
+skylight
+skysphere
+
+## Structural Elements and Foundations
+base
+base reception
+foundation
+inner structure
+outer structure
+structure
+outer wall
+outer walls
+
+## Exterior/Outdoor Structural Elements
+exterior corner wall
+exterior door
+exterior small window
+exterior wall
+exterior window
+facade balcony
+facade corner wall
+facade door
+facade window
+outdoor box
+outdoor platform
+outdoor staircase
+outdoor wall
+outside
+outside trim
+outside wall
+
+## Other Structural/Non-Object Elements
+bp
+building
+building case
+building material
+building plaque
+building window
+corridor
+environment
+gallery
+hallway
+hallway side
+mall
+passageway bottom
+passageway bottom side
+passageway wall
+room
+scene mesh
+streetscape
+supermarket
+
+## Floor and Ground Elements
+ground
+asphalt
+curb
+curbstone
+curbstone drawer
+footway
+pavement
+paving
+road
+road center
+road mesh
+road part
+road pivot
+side walk
+side walk curve
+sidewalk
+park grass
+park walkway
+
+## Partitions and Dividers
+partition
+glass partition
+glass partition door
+toilet partition
+divider
+carpet divider
+
+## Trim and Molding Elements (already covered but listed for completeness)
+arch trim
+bottom molding
+ceiling molding
+ceiling trim
+door molding
+floor trim
+molding
+roof trim
+roof trim corner
+wall trim
+wall trim plastic
+wall trim wood
+window molding
+wood trim
+

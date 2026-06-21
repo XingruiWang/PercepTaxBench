@@ -1,0 +1,21 @@
+# Core: QA generation, evaluation, tooling
+numpy>=1.21.0
+pandas>=1.3.0
+pillow>=9.0.0
+opencv-python>=4.5.0
+scipy>=1.7.0
+tqdm>=4.62.0
+matplotlib>=3.4.0
+
+# LLM / VLM APIs (set keys via environment variables; see .env.example)
+google-generativeai>=0.3.0
+
+# Dataset packaging / release
+huggingface_hub>=0.20.0
+datasets>=2.14.0
+
+# Human-filtering apps (tools/multiuser_app_*.py)
+gradio>=4.0.0
+
+# --- GPU stages (3D annotation / detection) — install separately, see docs/INSTALL.md ---
+# torch, torchvision, transformers, timm, segment-anything, groundingdino, depth-anything-v2

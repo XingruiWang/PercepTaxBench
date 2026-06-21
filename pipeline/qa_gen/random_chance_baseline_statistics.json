@@ -1,0 +1,532 @@
+{
+  "sim_image": {
+    "benchmark": "sim_image",
+    "total_questions": 22644,
+    "total_questions_excluding_manual": 22644,
+    "categories": {
+      "taxonomy_reasoning": {
+        "total_questions": 13098,
+        "average_choices": 3.8365,
+        "random_chance_baseline": 0.260657,
+        "question_types": {
+          "repurposing_shield_concept": {
+            "count": 571,
+            "average_choices": 3.8792,
+            "random_chance_baseline": 0.257788
+          },
+          "repurposing_stepstool_concept": {
+            "count": 1581,
+            "average_choices": 3.7249,
+            "random_chance_baseline": 0.268467
+          },
+          "material_thermal_touch": {
+            "count": 676,
+            "average_choices": 3.6864,
+            "random_chance_baseline": 0.271268
+          },
+          "counterfactual_heat": {
+            "count": 1656,
+            "average_choices": 3.9402,
+            "random_chance_baseline": 0.253793
+          },
+          "counterfactual_water": {
+            "count": 1034,
+            "average_choices": 3.9352,
+            "random_chance_baseline": 0.254116
+          },
+          "functional_seating": {
+            "count": 1488,
+            "average_choices": 3.8454,
+            "random_chance_baseline": 0.260049
+          },
+          "repurposing_container_concept": {
+            "count": 1729,
+            "average_choices": 4.0515,
+            "random_chance_baseline": 0.246824
+          },
+          "repurposing_reflector_concept": {
+            "count": 1138,
+            "average_choices": 3.7162,
+            "random_chance_baseline": 0.269094
+          },
+          "compositional_set_subtraction_container": {
+            "count": 953,
+            "average_choices": 3.4596,
+            "random_chance_baseline": 0.289051
+          },
+          "material_scratch_resistance": {
+            "count": 664,
+            "average_choices": 3.6807,
+            "random_chance_baseline": 0.271686
+          },
+          "latent_containment": {
+            "count": 37,
+            "average_choices": 4.3514,
+            "random_chance_baseline": 0.229814
+          },
+          "repurposing_cushion_concept": {
+            "count": 475,
+            "average_choices": 3.8211,
+            "random_chance_baseline": 0.261708
+          },
+          "latent_compressible": {
+            "count": 726,
+            "average_choices": 3.9697,
+            "random_chance_baseline": 0.251908
+          },
+          "material_sound_absorption": {
+            "count": 100,
+            "average_choices": 4.31,
+            "random_chance_baseline": 0.232019
+          },
+          "repurposing_bookend_concept": {
+            "count": 270,
+            "average_choices": 3.9778,
+            "random_chance_baseline": 0.251397
+          }
+        }
+      },
+      "taxonomy_description": {
+        "total_questions": 4332,
+        "average_choices": 3.9628,
+        "random_chance_baseline": 0.252345,
+        "question_types": {
+          "affordance_household__facility_operations": {
+            "count": 287,
+            "average_choices": 3.9791,
+            "random_chance_baseline": 0.251313
+          },
+          "affordance_mechanical_control": {
+            "count": 667,
+            "average_choices": 3.8741,
+            "random_chance_baseline": 0.258127
+          },
+          "affordance_place__support__work_on": {
+            "count": 271,
+            "average_choices": 3.8229,
+            "random_chance_baseline": 0.261583
+          },
+          "affordance_furniture": {
+            "count": 443,
+            "average_choices": 3.8781,
+            "random_chance_baseline": 0.257858
+          },
+          "affordance_display__exhibit__signal_value": {
+            "count": 467,
+            "average_choices": 4.0471,
+            "random_chance_baseline": 0.24709
+          },
+          "affordance_grip__carry__operate": {
+            "count": 208,
+            "average_choices": 3.875,
+            "random_chance_baseline": 0.258065
+          },
+          "affordance_tableware_and_serveware": {
+            "count": 108,
+            "average_choices": 4.1574,
+            "random_chance_baseline": 0.240535
+          },
+          "affordance_mediated_action_and_meaning": {
+            "count": 47,
+            "average_choices": 4.1915,
+            "random_chance_baseline": 0.238579
+          },
+          "affordance_operate__use_device": {
+            "count": 320,
+            "average_choices": 4.0812,
+            "random_chance_baseline": 0.245023
+          },
+          "physical_property": {
+            "count": 120,
+            "average_choices": 3.3333,
+            "random_chance_baseline": 0.3
+          },
+          "affordance_art_display_(view_appraise)": {
+            "count": 188,
+            "average_choices": 3.9202,
+            "random_chance_baseline": 0.255088
+          },
+          "affordance_control__express__light": {
+            "count": 72,
+            "average_choices": 4.125,
+            "random_chance_baseline": 0.242424
+          },
+          "affordance_build__span__occupy": {
+            "count": 72,
+            "average_choices": 4.0139,
+            "random_chance_baseline": 0.249135
+          },
+          "function_knowledge": {
+            "count": 79,
+            "average_choices": 3.1519,
+            "random_chance_baseline": 0.317269
+          },
+          "affordance_architectural_components_and_fixtures": {
+            "count": 321,
+            "average_choices": 4.1589,
+            "random_chance_baseline": 0.240449
+          },
+          "material_property": {
+            "count": 108,
+            "average_choices": 3.3981,
+            "random_chance_baseline": 0.294278
+          },
+          "compositional_set_subtraction_hollow": {
+            "count": 473,
+            "average_choices": 4.2812,
+            "random_chance_baseline": 0.23358
+          },
+          "affordance_cleaning_and_sanitation": {
+            "count": 39,
+            "average_choices": 4.9487,
+            "random_chance_baseline": 0.202073
+          },
+          "affordance_grow__plant_(vegetation)": {
+            "count": 15,
+            "average_choices": 3.4,
+            "random_chance_baseline": 0.294118
+          },
+          "affordance_contain__carry__package": {
+            "count": 2,
+            "average_choices": 5.0,
+            "random_chance_baseline": 0.2
+          },
+          "affordance_enclosures_and_venues_(enter_use)": {
+            "count": 17,
+            "average_choices": 3.0,
+            "random_chance_baseline": 0.333333
+          },
+          "affordance_wearables_and_apparel": {
+            "count": 8,
+            "average_choices": 4.375,
+            "random_chance_baseline": 0.228571
+          }
+        }
+      },
+      "object_description": {
+        "total_questions": 236,
+        "average_choices": 3.7119,
+        "random_chance_baseline": 0.269406,
+        "question_types": {
+          "description_matching": {
+            "count": 236,
+            "average_choices": 3.7119,
+            "random_chance_baseline": 0.269406
+          }
+        }
+      },
+      "spatial_relation": {
+        "total_questions": 4978,
+        "average_choices": 2.0,
+        "random_chance_baseline": 0.5,
+        "question_types": {
+          "spatial_left_right": {
+            "count": 1221,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          },
+          "spatial_above_below": {
+            "count": 1231,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          },
+          "spatial_closer_to_camera": {
+            "count": 1263,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          },
+          "spatial_front_behind": {
+            "count": 1263,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          }
+        }
+      }
+    },
+    "overall": {
+      "total_questions": 22644,
+      "average_choices": 3.4556,
+      "random_chance_baseline": 0.289384
+    }
+  },
+  "real_image": {
+    "benchmark": "real_image",
+    "total_questions": 5439,
+    "total_questions_excluding_manual": 5389,
+    "categories": {
+      "taxonomy_reasoning": {
+        "total_questions": 2249,
+        "average_choices": 3.4193,
+        "random_chance_baseline": 0.292458,
+        "question_types": {
+          "compositional_set_subtraction_container": {
+            "count": 316,
+            "average_choices": 3.3671,
+            "random_chance_baseline": 0.296992
+          },
+          "repurposing_reflector_concept": {
+            "count": 319,
+            "average_choices": 3.3229,
+            "random_chance_baseline": 0.300943
+          },
+          "functional_seating": {
+            "count": 170,
+            "average_choices": 3.3529,
+            "random_chance_baseline": 0.298246
+          },
+          "repurposing_container_concept": {
+            "count": 122,
+            "average_choices": 3.5082,
+            "random_chance_baseline": 0.285047
+          },
+          "counterfactual_water": {
+            "count": 57,
+            "average_choices": 3.386,
+            "random_chance_baseline": 0.295337
+          },
+          "repurposing_stepstool_concept": {
+            "count": 118,
+            "average_choices": 3.5085,
+            "random_chance_baseline": 0.285024
+          },
+          "counterfactual_heat": {
+            "count": 247,
+            "average_choices": 3.4656,
+            "random_chance_baseline": 0.288551
+          },
+          "latent_compressible": {
+            "count": 293,
+            "average_choices": 3.4676,
+            "random_chance_baseline": 0.288386
+          },
+          "repurposing_bookend_concept": {
+            "count": 8,
+            "average_choices": 3.625,
+            "random_chance_baseline": 0.275862
+          },
+          "repurposing_shield_concept": {
+            "count": 44,
+            "average_choices": 3.4773,
+            "random_chance_baseline": 0.287582
+          },
+          "repurposing_cushion_concept": {
+            "count": 48,
+            "average_choices": 3.5625,
+            "random_chance_baseline": 0.280702
+          },
+          "latent_containment": {
+            "count": 37,
+            "average_choices": 3.3514,
+            "random_chance_baseline": 0.298387
+          },
+          "functional_foldable": {
+            "count": 178,
+            "average_choices": 3.4831,
+            "random_chance_baseline": 0.287097
+          },
+          "repurposing_lever_concept": {
+            "count": 11,
+            "average_choices": 3.8182,
+            "random_chance_baseline": 0.261905
+          },
+          "material_scratch_resistance": {
+            "count": 105,
+            "average_choices": 3.3143,
+            "random_chance_baseline": 0.301724
+          },
+          "material_thermal_touch": {
+            "count": 112,
+            "average_choices": 3.3839,
+            "random_chance_baseline": 0.295515
+          },
+          "material_sound_absorption": {
+            "count": 64,
+            "average_choices": 3.4844,
+            "random_chance_baseline": 0.286996
+          }
+        }
+      },
+      "taxonomy_description": {
+        "total_questions": 2418,
+        "average_choices": 3.3697,
+        "random_chance_baseline": 0.29676,
+        "question_types": {
+          "affordance_sit__ride__attend": {
+            "count": 129,
+            "average_choices": 3.3333,
+            "random_chance_baseline": 0.3
+          },
+          "material_property": {
+            "count": 232,
+            "average_choices": 3.319,
+            "random_chance_baseline": 0.301299
+          },
+          "affordance_contain__carry__package": {
+            "count": 74,
+            "average_choices": 3.4189,
+            "random_chance_baseline": 0.29249
+          },
+          "affordance_grip__carry__operate": {
+            "count": 121,
+            "average_choices": 3.4959,
+            "random_chance_baseline": 0.286052
+          },
+          "function_knowledge": {
+            "count": 299,
+            "average_choices": 3.2642,
+            "random_chance_baseline": 0.306352
+          },
+          "affordance_operate__use_device": {
+            "count": 94,
+            "average_choices": 3.2766,
+            "random_chance_baseline": 0.305195
+          },
+          "affordance_furniture": {
+            "count": 123,
+            "average_choices": 3.561,
+            "random_chance_baseline": 0.280822
+          },
+          "affordance_interact_with_living_moving_things": {
+            "count": 66,
+            "average_choices": 3.3939,
+            "random_chance_baseline": 0.294643
+          },
+          "affordance_enclosures_and_venues_(enter_use)": {
+            "count": 53,
+            "average_choices": 3.283,
+            "random_chance_baseline": 0.304598
+          },
+          "affordance_mechanical_control": {
+            "count": 288,
+            "average_choices": 3.2986,
+            "random_chance_baseline": 0.303158
+          },
+          "compositional_set_subtraction_hollow": {
+            "count": 85,
+            "average_choices": 3.4,
+            "random_chance_baseline": 0.294118
+          },
+          "affordance_place__support__work_on": {
+            "count": 179,
+            "average_choices": 3.4804,
+            "random_chance_baseline": 0.287319
+          },
+          "affordance_wearables_and_apparel": {
+            "count": 284,
+            "average_choices": 3.4613,
+            "random_chance_baseline": 0.288911
+          },
+          "affordance_build__span__occupy": {
+            "count": 94,
+            "average_choices": 3.2979,
+            "random_chance_baseline": 0.303226
+          },
+          "affordance_tableware_and_serveware": {
+            "count": 57,
+            "average_choices": 3.4211,
+            "random_chance_baseline": 0.292308
+          },
+          "affordance_food_\u2014_prepared_dishes": {
+            "count": 30,
+            "average_choices": 3.5667,
+            "random_chance_baseline": 0.280374
+          },
+          "affordance_cleaning_and_sanitation": {
+            "count": 2,
+            "average_choices": 3.5,
+            "random_chance_baseline": 0.285714
+          },
+          "affordance_grow__plant_(vegetation)": {
+            "count": 60,
+            "average_choices": 3.3833,
+            "random_chance_baseline": 0.295567
+          },
+          "affordance_architectural_components_and_fixtures": {
+            "count": 11,
+            "average_choices": 3.1818,
+            "random_chance_baseline": 0.314286
+          },
+          "affordance_art_display_(view_appraise)": {
+            "count": 9,
+            "average_choices": 3.2222,
+            "random_chance_baseline": 0.310345
+          },
+          "affordance_food_\u2014_ingredients_and_produce": {
+            "count": 21,
+            "average_choices": 3.2381,
+            "random_chance_baseline": 0.308824
+          },
+          "affordance_household__facility_operations": {
+            "count": 10,
+            "average_choices": 3.5,
+            "random_chance_baseline": 0.285714
+          },
+          "affordance_mediated_action_and_meaning": {
+            "count": 13,
+            "average_choices": 3.1538,
+            "random_chance_baseline": 0.317073
+          },
+          "affordance_structured_operational_engagement": {
+            "count": 9,
+            "average_choices": 3.2222,
+            "random_chance_baseline": 0.310345
+          },
+          "affordance_control__express__light": {
+            "count": 10,
+            "average_choices": 3.2,
+            "random_chance_baseline": 0.3125
+          },
+          "affordance_display__exhibit__signal_value": {
+            "count": 46,
+            "average_choices": 3.3696,
+            "random_chance_baseline": 0.296774
+          },
+          "physical_property": {
+            "count": 19,
+            "average_choices": 3.2105,
+            "random_chance_baseline": 0.311475
+          }
+        }
+      },
+      "spatial_relation": {
+        "total_questions": 467,
+        "average_choices": 2.0,
+        "random_chance_baseline": 0.5,
+        "question_types": {
+          "spatial_above_below": {
+            "count": 226,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          },
+          "spatial_left_right": {
+            "count": 96,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          },
+          "spatial_front_behind": {
+            "count": 145,
+            "average_choices": 2.0,
+            "random_chance_baseline": 0.5
+          }
+        }
+      },
+      "object_description": {
+        "total_questions": 255,
+        "average_choices": 3.2157,
+        "random_chance_baseline": 0.310976,
+        "question_types": {
+          "description_matching": {
+            "count": 255,
+            "average_choices": 3.2157,
+            "random_chance_baseline": 0.310976
+          }
+        }
+      }
+    },
+    "overall": {
+      "total_questions": 5389,
+      "average_choices": 3.2644,
+      "random_chance_baseline": 0.306332
+    }
+  }
+}
