@@ -1,6 +1,6 @@
-# CrossProp — Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models
+# PercepTax — Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models
 
-Code for building **CrossProp**, a visual-question-answering benchmark that probes
+Code for building **PercepTax**, a visual-question-answering benchmark that probes
 vision-language models on **cross-property reasoning** — relating physical object
 properties (material, shape, function, affordance), spatial relations, and
 compositional / counterfactual reasoning — over both **real images** (OpenImages) and
@@ -9,7 +9,7 @@ compositional / counterfactual reasoning — over both **real images** (OpenImag
 This repository contains the **data-processing and benchmark-generation pipeline**.
 The released VQA data lives on Hugging Face:
 
-- 📦 **Benchmark (real + sim, open-ended):** `TaxonomyProject/CrossProp`
+- 📦 **Benchmark (real + sim, open-ended):** `TaxonomyProject/PercepTax`
 - 📦 **Simulation metadata (taxonomy, objects, scene annotations):** [`TaxonomyProject/SimulationMetadata`](https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata)
 
 The 3D-annotation / detection stages build on
@@ -49,8 +49,8 @@ and `pipeline/qa_gen/*.md`. (Internal code and data files keep the original
 ## Setup
 
 ```bash
-git clone https://github.com/XingruiWang/CrossProp
-cd CrossProp
+git clone https://github.com/XingruiWang/PercepTax
+cd PercepTax
 pip install -r requirements.txt          # core (QA gen, eval, tooling)
 # GPU stages (3D annotation / detection) need extra deps — see docs/INSTALL.md
 ```
