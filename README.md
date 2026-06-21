@@ -105,4 +105,4 @@ the upstream SpatialReasonerDataGen. See [LICENSE](LICENSE).
 }
 ```
 
-> _CrossProp: Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models — citation will be added here upon publication._
+> _PercepTax: Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models — citation will be added here upon publication._
