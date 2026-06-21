@@ -11,9 +11,13 @@ model must answer in free form (no multiple-choice options in the prompt).
 This repository holds the **data-processing & benchmark-generation pipeline** and the
 **inference / evaluation** code. The benchmark data is on Hugging Face.
 
-| | Project page | Paper | VQA dataset | Sim metadata |
-|---|---|---|---|---|
-| 🔗 | [perceptual-taxonomy.github.io](https://perceptual-taxonomy.github.io) | [arXiv:2511.19526](https://arxiv.org/abs/2511.19526) | [RyanWW/PercepTaxBench](https://huggingface.co/datasets/RyanWW/PercepTaxBench) | [TaxonomyProject/SimulationMetadata](https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata) |
+<p align="center">
+  <a href="https://perceptual-taxonomy.github.io"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://arxiv.org/abs/2511.19526"><img alt="Paper" src="https://img.shields.io/badge/arXiv-2511.19526-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white"></a>
+  <a href="https://github.com/XingruiWang/PercepTaxBench"><img alt="Code" src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://huggingface.co/datasets/RyanWW/PercepTaxBench"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
+  <a href="https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata"><img alt="Sim Metadata" src="https://img.shields.io/badge/Sim_Metadata-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
+</p>
 
 ## Subsets
 
