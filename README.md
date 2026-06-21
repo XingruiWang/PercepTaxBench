@@ -1,23 +1,30 @@
-# PercepTax — Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models
+<div align="center">
 
-**PercepTax** is an **open-ended** visual-question-answering benchmark that tests whether
-vision-language models can reason *across* physical object properties — material, shape,
-function, affordance — together with spatial relations and compositional / counterfactual
-reasoning. In each question the object of interest is marked by a **colored box**, and the
-model must answer in free form (no multiple-choice options in the prompt).
+<h1>PercepTax</h1>
 
-![PercepTax samples](assets/preview.png)
+<h3>Benchmarking Physical Intelligence through<br>Cross-Property Reasoning in Vision-Language Models</h3>
 
-This repository holds the **data-processing & benchmark-generation pipeline** and the
-**inference / evaluation** code. The benchmark data is on Hugging Face.
+<p><sub><b>ECCV 2026</b></sub></p>
 
-<p align="center">
+<p>
   <a href="https://perceptual-taxonomy.github.io"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://arxiv.org/abs/2511.19526"><img alt="Paper" src="https://img.shields.io/badge/arXiv-2511.19526-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white"></a>
   <a href="https://github.com/XingruiWang/PercepTaxBench"><img alt="Code" src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://huggingface.co/datasets/RyanWW/PercepTaxBench"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
   <a href="https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata"><img alt="Sim Metadata" src="https://img.shields.io/badge/Sim_Metadata-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
 </p>
+
+<img src="assets/preview.png" alt="PercepTax samples" width="95%">
+
+</div>
+
+**PercepTax** is an **open-ended** visual-question-answering benchmark that tests whether
+vision-language models can reason *across* physical object properties — material, shape,
+function, affordance — together with spatial relations and compositional / counterfactual
+reasoning. In each question the object of interest is marked by a **colored box**, and the
+model answers in free form (no multiple-choice options). This repository holds the
+**data-processing & benchmark-generation pipeline** and the **inference / evaluation** code;
+the benchmark data lives on Hugging Face.
 
 ## Subsets
 
