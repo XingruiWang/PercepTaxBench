@@ -43,3 +43,7 @@ log/
 gradio_temp/
 .gradio/
 .cache/
+
+# allow the readme teaser
+!assets/
+!assets/preview.png
