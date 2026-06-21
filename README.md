@@ -9,7 +9,7 @@ compositional / counterfactual reasoning — over both **real images** (OpenImag
 This repository contains the **data-processing and benchmark-generation pipeline**.
 The released VQA data lives on Hugging Face:
 
-- 📦 **Benchmark (real + sim, open-ended):** `TaxonomyProject/PercepTax`
+- 📦 **Benchmark (real + sim, open-ended):** `RyanWW/PercepTaxBench`
 - 📦 **Simulation metadata (taxonomy, objects, scene annotations):** [`TaxonomyProject/SimulationMetadata`](https://huggingface.co/datasets/TaxonomyProject/SimulationMetadata)
 
 The 3D-annotation / detection stages build on
@@ -49,8 +49,8 @@ and `pipeline/qa_gen/*.md`. (Internal code and data files keep the original
 ## Setup
 
 ```bash
-git clone https://github.com/XingruiWang/PercepTax
-cd PercepTax
+git clone https://github.com/XingruiWang/PercepTaxBench
+cd PercepTaxBench
 pip install -r requirements.txt          # core (QA gen, eval, tooling)
 # GPU stages (3D annotation / detection) need extra deps — see docs/INSTALL.md
 ```
