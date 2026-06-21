@@ -1,4 +1,4 @@
-# CrossProp — Benchmarking Cross-Property Reasoning in Vision-Language Models
+# CrossProp — Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models
 
 Code for building **CrossProp**, a visual-question-answering benchmark that probes
 vision-language models on **cross-property reasoning** — relating physical object
@@ -105,4 +105,4 @@ the upstream SpatialReasonerDataGen. See [LICENSE](LICENSE).
 }
 ```
 
-> _CrossProp: Benchmarking Cross-Property Reasoning in Vision-Language Models — citation will be added here upon publication._
+> _CrossProp: Benchmarking Physical Intelligence through Cross-Property Reasoning in Vision-Language Models — citation will be added here upon publication._
